@@ -1,0 +1,34 @@
+You can use the inputCommandList file to pass the commands to test.
+
+For example: commands will be like..
+
+
+
+DEPEND TELNET TCPIP NETCARD
+DEPEND TCPIP NETCARD
+DEPEND DNS TCPIP NETCARD
+DEPEND BROWSER TCPIP HTML
+INSTALL NETCARD
+INSTALL TELNET
+INSTALL foo
+REMOVE NETCARD
+INSTALL BROWSER
+INSTALL DNS
+LIST
+REMOVE TELNET
+REMOVE NETCARD
+REMOVE DNS
+REMOVE NETCARD
+INSTALL NETCARD
+REMOVE TCPIP
+REMOVE BROWSER
+REMOVE TCPIP
+END
+
+How to use the project: 
+
+1. Import the files in eclipse or any other ide as the java project.
+2. Build the project and run the project.
+
+
+ 
